@@ -1,0 +1,30 @@
+baseURL = 'https://docs.lubbock.social/'
+languageCode = 'en-us'
+title = 'Lubbock.social Docs'
+enableEmoji = true
+# enableGitInfo = true
+
+[module]
+    # uncomment line below for temporary local development of module
+    # or when using a 'theme' as a git submodule
+    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    [[module.imports]]
+        path = "github.com/colinwilson/lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+[params]
+    [params.footer]
+        copyright = "**Lubbock.social** is hosted by Texas Catalyst Media. Docs site built in [Hugo](https://gohugo.io/)."
+    
+    [params.docs]
+        title = "Lubbock.social Docs"
+        descriptions = true
+        themeColor = 'magenta'
+        darkMode = true
+        ghrepo = "github.com/kalanggam/docs.lubbock.social"
+        breadcrumbs = false
+        navDesc = true
+        titleIcon = true
