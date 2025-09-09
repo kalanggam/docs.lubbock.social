@@ -2,7 +2,7 @@ baseURL = 'https://docs.lubbock.social/'
 languageCode = 'en-us'
 title = 'Lubbock.social Docs'
 enableEmoji = true
-# enableGitInfo = true
+enableGitInfo = true
 
 [module]
     # uncomment line below for temporary local development of module
